@@ -11,6 +11,7 @@ const CHARM_TIERS = [
   { name: 'Amethyst Charm', chance: 12.5, luckBonus: 8, color: '#9C27B0', img: 'img/charms/amethyst-charm.png' },
   { name: 'Gold Charm', chance: 10, luckBonus: 8.5, color: '#FFD700', img: 'img/charms/gold-charm.png' },
   { name: 'Gambler Charm', chance: 2.5, luckBonus: 15.5, color: '#FF1744', img: 'img/charms/gambler-charm.png' },
+  { name: '100 Reward Charm', chance: 0, luckBonus:10,color: '#FFD700', img: 'img/charms/reward-charm.png',isSpecial: true
 ];
 
 const MAX_EQUIPPED_CHARMS = 2;
